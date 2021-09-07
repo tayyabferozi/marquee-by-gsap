@@ -1,0 +1,28 @@
+body {
+  background: grey;
+  font-family: Asap, sans-serif;
+}
+.wrapper {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 50%;
+  top: 40%;
+  background: grey;
+  overflow: hidden;
+}
+.wrapper .box {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: grey;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+.wrapper .boxes {
+  position: relative;
+  left: -250px;
+}
