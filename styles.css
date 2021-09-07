@@ -1,28 +1,26 @@
 body {
-  background: grey;
   font-family: Asap, sans-serif;
 }
-.wrapper {
-  position: fixed;
+.marquee {
+  position: relative;
   width: 100%;
   height: 50px;
   left: 50%;
-  top: 40%;
-  background: grey;
+  /* top: 40%; */
   overflow: hidden;
+  margin-top: 3rem;
 }
-.wrapper .box {
+.marquee .box {
   position: absolute;
   width: 250px;
   height: 50px;
-  background-color: grey;
   color: black;
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
   text-align: center;
 }
-.wrapper .boxes {
+.marquee .boxes {
   position: relative;
   left: -250px;
 }
